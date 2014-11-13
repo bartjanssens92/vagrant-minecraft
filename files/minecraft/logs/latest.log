@@ -1,0 +1,62 @@
+[13:30:56] [Server thread/INFO]: Starting minecraft server version 1.8
+[13:30:56] [Server thread/INFO]: Loading properties
+[13:30:56] [Server thread/INFO]: Default game type: SURVIVAL
+[13:30:56] [Server thread/INFO]: Generating keypair
+[13:30:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:30:56] [Server thread/WARN]: Failed to load user banlist: 
+java.io.FileNotFoundException: banned-players.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_71]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_71]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.8.jar:?]
+	at ss.g(SourceFile:124) ~[minecraft_server.1.8.jar:?]
+	at pn.z(SourceFile:99) [minecraft_server.1.8.jar:?]
+	at pn.<init>(SourceFile:25) [minecraft_server.1.8.jar:?]
+	at po.i(SourceFile:171) [minecraft_server.1.8.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:417) [minecraft_server.1.8.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_71]
+[13:30:56] [Server thread/WARN]: Failed to load ip banlist: 
+java.io.FileNotFoundException: banned-ips.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_71]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_71]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.8.jar:?]
+	at ss.g(SourceFile:124) ~[minecraft_server.1.8.jar:?]
+	at pn.y(SourceFile:91) [minecraft_server.1.8.jar:?]
+	at pn.<init>(SourceFile:27) [minecraft_server.1.8.jar:?]
+	at po.i(SourceFile:171) [minecraft_server.1.8.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:417) [minecraft_server.1.8.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_71]
+[13:30:56] [Server thread/WARN]: Failed to load operators list: 
+java.io.FileNotFoundException: ops.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_71]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_71]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.8.jar:?]
+	at ss.g(SourceFile:124) ~[minecraft_server.1.8.jar:?]
+	at pn.A(SourceFile:107) [minecraft_server.1.8.jar:?]
+	at pn.<init>(SourceFile:29) [minecraft_server.1.8.jar:?]
+	at po.i(SourceFile:171) [minecraft_server.1.8.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:417) [minecraft_server.1.8.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_71]
+[13:30:56] [Server thread/WARN]: Failed to load white-list: 
+java.io.FileNotFoundException: whitelist.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_71]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_71]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.8.jar:?]
+	at ss.g(SourceFile:124) ~[minecraft_server.1.8.jar:?]
+	at pn.C(SourceFile:123) [minecraft_server.1.8.jar:?]
+	at pn.<init>(SourceFile:30) [minecraft_server.1.8.jar:?]
+	at po.i(SourceFile:171) [minecraft_server.1.8.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:417) [minecraft_server.1.8.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_71]
+[13:30:57] [Server thread/INFO]: Preparing level "world"
+[13:30:58] [Server thread/INFO]: Preparing start region for level 0
+[13:30:59] [Server thread/INFO]: Preparing spawn area: 0%
+[13:31:00] [Server thread/INFO]: Preparing spawn area: 5%
+[13:31:01] [Server thread/INFO]: Preparing spawn area: 12%
+[13:31:02] [Server thread/INFO]: Preparing spawn area: 23%
+[13:31:03] [Server thread/INFO]: Preparing spawn area: 33%
+[13:31:04] [Server thread/INFO]: Preparing spawn area: 45%
+[13:31:05] [Server thread/INFO]: Preparing spawn area: 57%
+[13:31:06] [Server thread/INFO]: Preparing spawn area: 70%
+[13:31:07] [Server thread/INFO]: Preparing spawn area: 83%
+[13:31:08] [Server thread/INFO]: Preparing spawn area: 96%
+[13:31:08] [Server thread/INFO]: Done (11.707s)! For help, type "help" or "?"
