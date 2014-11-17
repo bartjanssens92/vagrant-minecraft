@@ -1,6 +1,6 @@
 node 'lightless' {
 	
-  $soft=['java-1.7.0-openjdk','nano','unzip']
+  $soft=['java-1.7.0-openjdk','nano','unzip','lighttpd']
 
 	group { 'sudo':
     ensure  => 'present',
@@ -38,8 +38,20 @@ node 'lightless' {
       ]
   }
 
+  # Enableing the epel repo
+  yumrepo { 'epel.repo':
+    name           => 'Epel',
+    descr          => 'Extra Packages for Enterprise Linux 6',
+    mirrorlist     => 'https://mirrors.fedoraproject.org/metalink?repo=epel-6&arch=$basearch',
+    failovermethod => 'priority',
+    enabled        => 1,
+    gpgcheck       => 1,
+    gpgkey         => 'file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6',
+  }
+
   package{ $soft:
     ensure => 'installed',
+    require => Yumrepo['epel.repo'],
   }
 
   package{ 'elasticsearch-1.4.0.noarch.rpm':
