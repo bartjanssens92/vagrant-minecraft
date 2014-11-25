@@ -1,6 +1,6 @@
 node 'lightless' {
 	
-  $soft=['java-1.7.0-openjdk','nano','unzip','httpd']
+  $soft=['java-1.7.0-openjdk','nano','htop','unzip','httpd']
 
 	group { 'sudo':
     ensure  => 'present',
